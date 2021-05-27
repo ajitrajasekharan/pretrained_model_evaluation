@@ -7,18 +7,9 @@ Setup pytorch environment with/without GPU support using [link](https://github.c
 
 
 
-## Step 1. Corpus pre-processing for sentence boundary detection
+## Usage
 
-Use [this repository code](https://github.com/ajitrajasekharan/simple_sbd.git) for sentence boundary detection
-
-Perform sentence boundary detection using script bert_sbd.py. It filters out lines less than min_words (3) and > max_words (word not characters)
-Then “tr” the output to lowercase approx. This is only required for uncased model pretraining.
-
-*Example:*
-```
- python bert_sbd.py -input pubmed.txt -single True  | tr 'A-Z' 'a-z' > combined.txt 
-```
-
+<img src="usage.png" width="600">
 
 ## Results
 
