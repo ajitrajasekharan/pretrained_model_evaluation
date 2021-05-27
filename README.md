@@ -5,9 +5,13 @@ Details of the pre-training evaluation as well pre-training tips in [the medium 
 # Installation
 Setup pytorch environment with/without GPU support using [link](https://github.com/ajitrajasekharan/multi_gpu_test)
 
-# Usage
 
-<img src="usage.png" width="600">
+
+# Step 1. Corpus pre-processing for sentence boundary detection
+
+Use [this link](https://github.com/ajitrajasekharan/simple_sbd.git) for sentence boundary detection
+
+
 
 
 # Results
